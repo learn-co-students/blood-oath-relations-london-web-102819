@@ -30,10 +30,10 @@ cult3.founding_year_
 cult1.slogan_
 cult3.slogan_
 
-cult1.recruit_follower(2018, f1)
-cult3.recruit_follower(2017, f2)
-cult1.recruit_follower(2018, f1)
-cult3.recruit_follower(2017, f2)
+cult1.recruit_follower(f1)
+cult3.recruit_follower(f2)
+cult1.recruit_follower(f1)
+cult3.recruit_follower(f2)
 
 cult2.cult_population
 cult3.cult_population
@@ -47,7 +47,7 @@ puts "checking followers"
 
 f2.cults
 
-m = f3.join_cult(cult3, 2001)
+m = f3.join_cult(cult3)
 a = Follower.of_a_certain_age(30)
 
 binding.pry

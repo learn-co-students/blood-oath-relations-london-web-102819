@@ -32,7 +32,8 @@ class Follower
     the_cults
   end
 
-  def join_cult(cult, date)
+  def join_cult(cult)
+    date = Time.at(rand * Time.now.to_i)
     BloodOath.new(cult, self, date)
   end
 

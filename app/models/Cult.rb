@@ -29,8 +29,9 @@ class Cult
     self.slogan
   end
 
-  def recruit_follower(init_date, follower)
-    BloodOath.new(self, follower, init_date)
+  def recruit_follower(follower)
+    date = Time.at(rand * Time.now.to_i)
+    BloodOath.new(self, follower, date)
   end
 
   def cult_population
