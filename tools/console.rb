@@ -13,10 +13,10 @@ cult1 = Cult.new("J", "London", 1991, "Be cool!")
 cult2 = Cult.new("A", "Bristol", 1999, "Rock it")
 cult3 = Cult.new("B", "Barcelona", 2000, "Necer stop!")
 
-f1 = Follower.new("Anji", 32, "life is perfect")
-f2 = Follower.new("Anji", 30, "whatever")
-f3 = Follower.new("Anji", 30, "hey")
-f4 = Follower.new("Anji", 33, "life sucks")
+f1 = Follower.new("An", 32, "life is perfect")
+f2 = Follower.new("En", 30, "whatever")
+f3 = Follower.new("Pep", 30, "hey")
+f4 = Follower.new("Mel", 33, "life sucks")
 
 cult1.name_
 cult2.name_
